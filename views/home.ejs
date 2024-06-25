@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Website</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .jumbotron {
+      background: url("C:/Users/SANNU KUMAR/Downloads/sunset-lake-landscape-illustration-free-vector.jpg") no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+    }
+    .highlight {
+      padding: 20px;
+      margin-bottom: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Cricket Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/signup">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to the Ultimate Cricket Experience</h1>
+    <p class="lead">Stay updated with the latest scores, news, and highlights.</p>
+    <a class="btn btn-primary btn-lg" href="/signup" role="button">Sign Up Now</a>
+    <a class="btn btn-success btn-lg" href="/home" role="button">Go to Home</a>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="highlight">
+          <img src="path/to/match1.jpg" class="img-fluid" alt="Match 1">
+          <h3>Recent Matches</h3>
+          <p>Catch up on the highlights and scores of the latest matches.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="highlight">
+          <img src="path/to/player1.jpg" class="img-fluid" alt="Player 1">
+          <h3>Player of the Week</h3>
+          <p>Get to know the top-performing players and their statistics.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="highlight">
+          <img src="path/to/news1.jpg" class="img-fluid" alt="News 1">
+          <h3>Cricket News</h3>
+          <p>Stay informed with the latest news and updates from the world of cricket.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
